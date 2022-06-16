@@ -20,7 +20,7 @@ public class Main {
             fillArray();
             otherArr();
             fillDiagonal();
-            int[] arr5 = getArray(8, 10);
+            int[] arr5 = gettArray(8, 10);
             for (int i = 0; i < arr5.length; i++) {
                 System.out.println(arr5[i] + "");
             }
@@ -72,7 +72,7 @@ public class Main {
 
         }
 
-        public static int[] getArray(int len, int initialValue) {
+        public static int[] gettArray(int len, int initialValue) {
             int[] result = new int[len];
             for (int i = 0; i < result.length; i++) {
                 result[i] = initialValue;
